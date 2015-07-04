@@ -67,7 +67,7 @@ class GMS
 
     # build a url for a google image
     def imageURL(x, y, z, layer=@layer)
-      "http://mt1.google.com/vt/lyrs=#{layer}&hl=ru&x=#{x}&s=&y=#{y}&z=#{z.to_s}&apistyle=s.t%3A3|s.e%3Al|p.v%3Aoff"
+      "http://mt1.google.com/vt/lyrs=#{layer}&hl=ru&x=#{x}&s=&y=#{y}&z=#{z.to_s}&apistyle=s.t%3A3%7Cs.e%3Al%7Cp.v%3Aoff"
     end
 
     def status
